@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>La Brioche Axonaise - Artisan Boulanger</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav id="navbar" class="scrolled">
+    <a href="#" class="nav-logo">La Brioche Axonaise</a>
+    <button class="nav-toggle" aria-label="Menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <div class="nav-links" id="navLinks">
+      <a href="#brioches" data-section="brioches">Nos Brioches</a>
+      <a href="#histoire" data-section="histoire" class="active">Notre Histoire</a>
+      <a href="#equipe" data-section="equipe" class="active">Notre Équipe</a>
+      <a href="#contact" data-section="contact">Contact</a>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <div class="hero-eyebrow">Artisanal · Laon, Aisne</div>
+      <h1 class="hero-title">La Brioche<br>Axonaise</h1>
+      <div class="hero-divider"></div>
+      <p class="hero-subtitle">Quatre saveurs. Une passion. Un savoir-faire.</p>
+      <a href="#brioches" class="hero-cta">Découvrir nos brioches</a>
+    </div>
+    <div class="hero-scroll" aria-hidden="true">
+      <span></span>
+    </div>
+  </section>
+
+  <!-- Nos Brioches -->
+  <section id="brioches" class="section-padding">
+    <div class="container">
+      <div class="section-title">
+        <h2>Nos Brioches</h2>
+        <p class="section-subtitle"><span>Fabriquées avec des ingrédients soigneusement contrôlés et sélectionnés directement chez nos producteurs</span></p>
+      </div>
+
+      <div class="catalog-showcase reveal visible">
+        <img
+          src="images/catalogue.jpg"
+          alt="Les 4 Brioches Axonaises — Nature, Fleur d'Oranger, Fève de Tonka &amp; Cacao, Fruit Exotique"
+          loading="lazy"
+        >
+
+      </div>
+
+      <div class="products-grid">
+
+        <div class="product-card reveal visible" data-aos="fade-up" data-aos-delay="0">
+          <div class="product-accent"></div>
+          <div class="product-content">
+            <div class="product-header">
+              <h3 class="product-name">Nature</h3>
+              <span class="product-price">3,98 €</span>
+            </div>
+            <p class="product-desc">
+              La brioche originelle, douce et moelleuse, sublimée par des perles de sucre craquantes.
+            </p>
+            <div class="product-tags">
+              <span class="tag">Classic</span>
+              <span class="tag">Sucre perlé</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card reveal visible" data-aos="fade-up" data-aos-delay="100">
+          <div class="product-accent"></div>
+          <div class="product-content">
+            <div class="product-header">
+              <h3 class="product-name">Fleur d'Oranger</h3>
+              <span class="product-price">4,48 €</span>
+            </div>
+            <p class="product-desc">
+              Une brioche délicatement parfumée à la fleur d'oranger, légère et subtilement fruitée.
+            </p>
+            <div class="product-tags">
+              <span class="tag">Floral</span>
+              <span class="tag">Fruité</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card reveal visible" data-aos="fade-up" data-aos-delay="200">
+          <div class="product-accent"></div>
+          <div class="product-content">
+            <div class="product-header">
+              <h3 class="product-name">Fève de Tonka &amp; Cacao</h3>
+              <span class="product-price">4,98 €</span>
+            </div>
+            <p class="product-desc">
+              Un mariage gourmand entre la rondeur de la fève de tonka et l'intensité du cacao.
+            </p>
+            <div class="product-tags">
+              <span class="tag">Chocolat</span>
+              <span class="tag">Gourmand</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card reveal visible" data-aos="fade-up" data-aos-delay="300">
+          <div class="product-accent"></div>
+          <div class="product-content">
+            <div class="product-header">
+              <h3 class="product-name">Fruit Exotique</h3>
+              <span class="product-price">4,98 €</span>
+            </div>
+            <p class="product-desc">
+              Une explosion de saveurs tropicales — mangue, noix de coco — sur une brioche généreuse.
+            </p>
+            <div class="product-tags">
+              <span class="tag">Tropical</span>
+              <span class="tag">Mangue</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Notre Histoire -->
+  <section id="histoire" class="histoire-section">
+    <div class="histoire-bg-deco" aria-hidden="true"></div>
+    <div class="container">
+      <div class="section-title">
+        <h2>Notre Histoire</h2>
+      </div>
+      <div class="histoire-content reveal visible">
+        <div class="quote-mark" aria-hidden="true">"</div>
+        <p class="histoire-text">
+          Née le 8 Août 2024, La Brioche Axonaise est d'abord un pari — celui de deux étudiants de l'IUT de Laon qui
+          ont décidé de lancer un concept de brioche naturellement fruité.
+        </p>
+        <p class="histoire-text">
+          Après 1 an de réflexion et de conception, la marque lance ses 4 premiers produits en Janvier 2026 : 4
+          brioches aux 4 saveurs, différentes mais unies par la même exigence de qualité et d'authenticité.
+        </p>
+        <p class="histoire-text">
+          Le nom <em>La Brioche Axonaise</em> porte en lui l'identité de ses créateurs et de leur territoire — l'Axonais — une promesse d'authenticité et de passion à chaque bouchée.
+        </p>
+      </div>
+
+      <div class="histoire-stats">
+        <div class="stat-card reveal visible">
+          <div class="stat-value">2024</div>
+          <div class="stat-label">Créée en</div>
+        </div>
+        <div class="stat-sep" aria-hidden="true"></div>
+        <div class="stat-card reveal visible">
+          <div class="stat-value">Jan. 2026</div>
+          <div class="stat-label">Lancée en</div>
+        </div>
+        <div class="stat-sep" aria-hidden="true"></div>
+        <div class="stat-card reveal visible">
+          <div class="stat-value">4</div>
+          <div class="stat-label">Saveurs artisanales</div>
+        </div>
+        <div class="stat-sep" aria-hidden="true"></div>
+        <div class="stat-card reveal visible">
+          <div class="stat-value">Laon</div>
+          <div class="stat-label">Aisne, France</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Notre Équipe -->
+  <section id="equipe" class="section-padding equipe-section">
+    <div class="container">
+      <div class="section-title">
+        <h2>Notre Équipe</h2>
+        <p class="section-subtitle">Trois passionnés. Une vision partagée.</p>
+      </div>
+
+      <div class="team-grid">
+
+        <div class="team-card reveal visible">
+          <div class="team-avatar">R</div>
+          <h3 class="team-name">Romain</h3>
+          <div class="team-role">Artisan Boulanger-Pâtissier</div>
+          <div class="team-divider"></div>
+          <p class="team-bio">
+            Ancien boulanger pâtissier, Romain est le frère de Lucas. En charge de la conception et du développement
+            des produits de la gamme, il apporte son expertise et son exigence artisanale à chaque création.
+          </p>
+        </div>
+
+        <div class="team-card reveal visible">
+          <div class="team-avatar">K</div>
+          <h3 class="team-name">Kévin</h3>
+          <div class="team-role">Co-fondateur · Gestion &amp; Logistique</div>
+          <div class="team-divider"></div>
+          <p class="team-bio">
+            Premier co-fondateur de la marque, Kévin gère l'ensemble de la dimension administrative et comptable de
+            l'entreprise. Il assure la livraison des produits aux partenaires et l'approvisionnement des matières
+            premières.
+          </p>
+        </div>
+
+        <div class="team-card reveal visible">
+          <div class="team-avatar">L</div>
+          <h3 class="team-name">Lucas</h3>
+          <div class="team-role">Co-fondateur · Communication &amp; Ventes</div>
+          <div class="team-divider"></div>
+          <p class="team-bio">
+            Co-fondateur et visage commercial de la marque, Lucas s'occupe de l'aspect humain de la vente. Il réalise
+            différents salons au cours de l'année, gère la communication et veille à l'image renvoyée par les
+            produits.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer / Contact -->
+  <footer id="contact">
+    <div class="footer-inner">
+      <div class="footer-logo">La Brioche Axonaise</div>
+      <div class="footer-tagline">Artisanal · Laon, Aisne</div>
+      <div class="footer-divider"></div>
+
+      <h3>Contactez-nous</h3>
+      <div class="footer-contact-grid">
+        <a href="mailto:contact@labriocheaxonaise.fr" class="footer-contact-item">
+          <span class="footer-icon">✉</span>
+          contact@labriocheaxonaise.fr
+        </a>
+        <a href="tel:0769926008" class="footer-contact-item">
+          <span class="footer-icon">☎</span>
+          07 69 92 60 08
+        </a>
+      </div>
+
+      <div class="footer-nav">
+        <a href="#brioches">Nos Brioches</a>
+        <span>·</span>
+        <a href="#histoire">Notre Histoire</a>
+        <span>·</span>
+        <a href="#equipe">Notre Équipe</a>
+      </div>
+
+      <div class="footer-divider footer-divider--faint"></div>
+      <div class="footer-copy">© 2026 La Brioche Axonaise — Laon, Aisne · Tous droits réservés</div>
+    </div>
+  </footer>
+
+  <!-- Back to top -->
+  <button class="back-to-top visible" id="backToTop" aria-label="Retour en haut">↑</button>
+
+</body>
+</html>
